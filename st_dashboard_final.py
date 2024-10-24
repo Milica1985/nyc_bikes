@@ -52,7 +52,7 @@ if page == 'Intro page':
     st.markdown('- Recommendations')
 
     # Open and display the image properly aligned with the block
-    myImage = Image.open("citi_bike_cycles.jpg")  # source: https://nycdotbikeshare.info/news_events_page
+    myImage = Image.open("Citi_bike_cycles.jpg")  # source: https://nycdotbikeshare.info/news_events_page
     st.image(myImage)
 
 ### LINE CHART PAGE: WEATHER COMPONENT AND BIKE USAGE
